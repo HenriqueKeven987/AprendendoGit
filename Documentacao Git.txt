@@ -5,6 +5,15 @@ modificado == foi adicionado ao .git local mais foi alterado
 preparado == arquivos que estao prontos para serem commitados
 consolidado == foi commitado e esta pronto para ser enviado ao repositorio remoto
 
+//permite ver o estado do arquivo tal no commit tal isso E o git blz controle de versoes
+git chekout <commit> <file>
+
+//vai te fazer voltar para o ultimo commit
+git chekout <brnach atual>
+
+//quando seu coleginha resolver fazer alteracoes para te sacanear tai o comando
+git chekout -- <file> ou ponto como no git add para desfazer tudo
+
 //vai mostrar a oq foi alterado nos ultimos commits HEAD~1 vai mostrar o ultimo ja HEAD~2 o penultimo
 //e o diff mostra o historico de alteracoes
 git diff HEAD~1
