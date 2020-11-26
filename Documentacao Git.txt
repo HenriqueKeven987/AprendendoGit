@@ -14,10 +14,10 @@ git chekout <brnach atual>
 //quando seu coleginha resolver fazer alteracoes para te sacanear tai o comando
 git chekout -- <file> ou ponto como no git add para desfazer tudo
 
-//esse E brabo vai refazer tudo que vc fez em um commit tipo add em uma linha ele vai del na linha adicionada
+//esse E brabo vai desfazer tudo que vc fez em um commit tipo add em uma linha ele vai del na linha adicionada
 git revert <commit>
 
-//outro brabo tb vai desfazer o commit CUIDADO NAO USAR QUANDO O COMMIT JA ESTIVER NO REMOTO
+//outro brabo tb vai apagar e desfazer o commit CUIDADO NAO USAR QUANDO O COMMIT JA ESTIVER NO REMOTO
 git reset <commit>
 
 //voltando no tempo basicamente em 1 commit 
