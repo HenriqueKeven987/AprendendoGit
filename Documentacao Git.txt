@@ -9,7 +9,7 @@ consolidado == foi commitado e esta pronto para ser enviado ao repositorio remot
 git chekout <commit> <file>
 
 //vai te fazer voltar para o ultimo commit
-git chekout <brnach atual>
+git chekout <branch atual>
 
 //quando seu coleginha resolver fazer alteracoes para te sacanear tai o comando
 git chekout -- <file> ou ponto como no git add para desfazer tudo
@@ -39,6 +39,9 @@ git clone <url>
 //desfazer alteracoes q foram feitas no arquivo
 git checkout --nomeDoArquivo
 
+//troca de branch
+git checkout <nome da branch>
+
 //alterar o editor de codigo padrao
 git config --global core.editor nomeDoEditor
 
@@ -66,4 +69,12 @@ git commit -m "alteracao"
 //envio para o repositorio remoto github no caso
 git push
 
+//ver as branch(linhas do tempo da aplicaçao)
+git branch
+
+//excluir branch 
+git branch -d <nome da branch>
+
+//criar uma nova branch
+git branch <nome da branch>
 
